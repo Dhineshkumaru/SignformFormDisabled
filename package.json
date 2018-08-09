@@ -10,9 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Dhineshkumaru/facebook-login"
   },
-  "keywords": [
-    "lite-server"
-  ],
+  "keywords": ["lite-server"],
   "author": "Todd Palmer",
   "license": "MIT",
   "bugs": {

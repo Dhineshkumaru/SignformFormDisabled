@@ -6,22 +6,28 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
-<div class="box">
-	<form onchange="validateForm()" name="signinForm">
-		<div class="input-field">
-			<label>Email:</label>
-			<input type="email" name="Email" class="input" required>
-		</div>
-		<div class="input-field">
-			<label>Password</label>
-			<input type="password" name="Password" class="input" required>
-		</div>
-		<div class="input-field">
-			<input type="checkbox" name="Remember Me"><labe>Remember Me</labe>
-		</div>
-		<div class="btns">
-			<button class="btn btn-success" id="signinBtn">Signin</button>
-			<button class="btn btn-danger">Cancel</button>
+<div class="form-center">
+	<h1 style="text-align:center;">REGISTERED USERS LOGIN</h1>
+	<form name="signupForm">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-2" >
+				</div>
+				<div class="col-md-6">
+					<span>User ID:</span><span class="star-color">*</span><br>
+					<input type="text" name="userId" onblur="fieldValidation('userId')"
+					 id="userId" required><br>
+					<span>Date of Birth:</span><span class="star-color">*</span><br>
+					<input type="date" name="dob"  onblur="fieldValidation('dob')"
+					 id="dob" required><br>
+					<span>Password:</span><span class="star-color">*</span><br>
+					<input type="password" name="password" onblur="fieldValidation('password')"
+					 id="password" required><br><br>
+					<button class="btn btn-danger">Login</button>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
 		</div>
 	</form>
 </div>

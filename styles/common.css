@@ -1,27 +1,13 @@
-.input {
-  border: 0;
-  outline: 0;
-  background: transparent;
-  width: 100%;
-  border-bottom: 1px solid black;
+input {
+  width: 40%;
 }
-
-.box {
-	margin-left: 450px;
-	margin-top: 200px;
-	background-color: #fff;
-	width: 500px;
-	padding: 25px;
-	border: 1px solid #f2f3f4;
-	box-shadow: 2px 2px 15px gray;
+/*.form-center {
+	text-align: center;
 }
-
-.input-field {
-	margin-bottom: 20px;
+*/
+.star-color {
+	color: red;
 }
-
-.btn {
-	align-content: right;
-	margin-left: 30px;
-	width: 120px;
+.borderColor {
+	border-color: red;
 }
