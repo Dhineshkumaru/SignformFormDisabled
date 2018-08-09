@@ -1,12 +1,7 @@
-# www-lite-server
-Leverage a single installation of  lite-server for multiple projects
+# Simple form Validation with disabled button
 
-This project is stored on GitHub here:
+### Screen shots
 
-https://github.com/t-palmer/www-lite-server
+![Alt Screen_1](https://github.com/Dhineshkumaru/SignformFormDisabled/blob/master/Screenshots/initial.jpg)
 
-
-## Configuration
-
-The configuration file for lite-server is: bs-config.json
-
+![Alt Screen_1](https://github.com/Dhineshkumaru/SignformFormDisabled/blob/master/Screenshots/after.jpg)
